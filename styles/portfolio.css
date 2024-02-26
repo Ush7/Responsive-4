@@ -1,11 +1,15 @@
 :root {
   --brand-color: #125982;
-  --secondary-color: #f84e4e;
+  --secondary-color: #f1c34d;
   --heading-font-family: "Playfair display", serif;
   --default-font-family: "Open sans", serif;
 }
 .hero {
   border-bottom: 0.05rem solid var(--brand-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.about-container {
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -66,4 +70,17 @@
   .hero #intro {
     font-size: 22px;
   }
+}
+#brand-dot {
+  color: var(--secondary-color);
+  font-size: 34px;
+}
+#geo-heading {
+  height: 2rem;
+}
+#about-heading {
+  color: var(--brand-color);
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  line-height: 80px;
 }
