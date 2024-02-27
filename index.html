@@ -29,10 +29,54 @@
     <title>Portfolio-Unisha</title>
   </head>
   <body>
+    <nav class="navbar fixed-top navbar-expand-sm bg-white">
+      <a class="navbar-brand mx-3" href="#"
+        ><img
+          src="image/Untitled design (1).png"
+          alt=""
+          height="30
+        "
+          class="mb-2"
+          id="logo"
+        />
+        <span id="name-logo">UNISHA</span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" target="_blank"
+              >Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" target="_blank">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html" target="_blank">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container hero">
       <div class="row">
         <div class="col-md-2"></div>
-        <div class="col-md-4 align-self-center p-3 d-none d-lg-block">
+        <div class="col-md-4 align-self-center p-3 d-none d-md-block">
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/762/original/Untitled_design.png?1708117496"
             alt="Primaryphoto"
@@ -44,9 +88,13 @@
         <div class="col-md-6 align-self-center p-3">
           <h1 class="heading">Hello!</h1>
           <p class="text-muted" id="intro">
-            I'm Unisha, a frontend developer based in Canada.
+            I'm Unisha Shilpakar, a frontend developer based in Canada.
           </p>
-          <a class="btn text-uppercase" id="btn-branding" href="#"
+          <a
+            class="btn text-uppercase"
+            id="btn-branding"
+            href="contact.html"
+            target="_blank"
             >Contact me</a
           >
         </div>
@@ -55,10 +103,10 @@
     <div class="container mb-5">
       <h1 class="mt-5 mb-5 text-center" id="content-heading">PROJECTS</h1>
       <div class="row mb-3 mx-2 my-2">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <img src="image/weather.png" class="img-fluid" alt="Weather" />
         </div>
-        <div class="col-lg-6 align-self-center p-3">
+        <div class="col-md-6 align-self-center p-3">
           <h2 class="mb-3" id="topic-heading">Weather App</h2>
           <p class="text-justify text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -74,7 +122,7 @@
         </div>
       </div>
       <div class="row flex-row-reverse mb-3 mx-2 my-2">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <img
             src="image/ai.png"
             class="img-fluid"
@@ -82,7 +130,7 @@
             alt="ai-kitchen-assitant"
           />
         </div>
-        <div class="col-lg-6 align-self-center p-3" id="content-desc-left">
+        <div class="col-md-6 align-self-center p-3" id="content-desc-left">
           <h2 class="mb-3" id="topic-heading">AI-Kitchen Assitant</h2>
           <p class="text-justify text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -98,10 +146,10 @@
         </div>
       </div>
       <div class="row mb-3 mx-2 my-2">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <img src="image/clock.png" class="img-fluid" alt="World-clock" />
         </div>
-        <div class="col-lg-6 align-self-center p-3">
+        <div class="col-md-6 align-self-center p-3">
           <h2 class="mb-3" id="topic-heading">World Clock App</h2>
           <p class="text-justify text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -117,10 +165,10 @@
         </div>
       </div>
       <div class="row flex-row-reverse mx-2 my-2">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <img src="image/travel.png" class="img-fluid" alt="Langtang" />
         </div>
-        <div class="col-lg-6 align-self-center p-3" id="content-desc-left">
+        <div class="col-md-6 align-self-center p-3" id="content-desc-left">
           <h2 class="mb-3" id="topic-heading">Travel App</h2>
           <p class="text-justify text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
