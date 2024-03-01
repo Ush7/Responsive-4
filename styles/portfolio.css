@@ -66,10 +66,15 @@ a {
 #btn-branding {
   background: var(--brand-color);
   border-radius: 50px;
-  color: white;
+  color: var(--secondary-color);
   padding: 18px, 30px, 18px, 30px;
   font-size: 14px;
   font-family: var(--default-font-family);
+}
+#btn-branding:hover {
+  background-color: white;
+  color: var(--brand-color);
+  border: solid 0.1rem var(--brand-color);
 }
 #btn-launch {
   border: solid 0.1rem var(--brand-color);
@@ -78,6 +83,10 @@ a {
   padding: 18px, 30px, 18px, 30px;
   font-size: 14px;
   font-family: var(--default-font-family);
+}
+#btn-launch:hover {
+  background-color: var(--brand-color);
+  color: var(--secondary-color);
 }
 
 #content-desc-left {
