@@ -29,7 +29,7 @@
     <title>Portfolio-Unisha</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-sm bg-white">
+    <nav class="navbar fixed-top navbar-expand-sm bg-white mx-1">
       <a class="navbar-brand mx-3" href="#"
         ><img
           src="image/Untitled design (1).png"
@@ -71,116 +71,155 @@
       </div>
     </nav>
 
-    <div class="container hero">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4 align-self-center p-3 d-none d-md-block">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/762/original/Untitled_design.png?1708117496"
-            alt="Primaryphoto"
-            srcset=""
-            class="img-fluid"
-            id="primary-intro-pic"
-          />
+    <div class="container">
+      <div class="hero">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-4 align-self-center p-3 d-none d-md-block">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/762/original/Untitled_design.png?1708117496"
+              alt="Primaryphoto"
+              srcset=""
+              class="img-fluid"
+              id="primary-intro-pic"
+            />
+          </div>
+          <div class="col-md-6 align-self-center p-3">
+            <h1 class="heading">Hello!</h1>
+            <p class="text-muted" id="intro">
+              I'm Unisha Shilpakar, a frontend developer based in Canada.
+            </p>
+            <a
+              class="btn text-uppercase"
+              id="btn-branding"
+              href="contact.html"
+              target="_blank"
+              >Contact me</a
+            >
+          </div>
         </div>
-        <div class="col-md-6 align-self-center p-3">
-          <h1 class="heading">Hello!</h1>
-          <p class="text-muted" id="intro">
-            I'm Unisha Shilpakar, a frontend developer based in Canada.
-          </p>
+      </div>
+      <div class="container mb-5">
+        <h1 class="mt-5 mb-5 text-center" id="content-heading">PROJECTS</h1>
+        <div class="row mb-3 mx-2 my-2">
+          <div class="col-md-6">
+            <img src="image/weather.png" class="img-fluid" alt="Weather" />
+          </div>
+          <div class="col-md-6 align-self-center p-3">
+            <h2 class="mb-3" id="topic-heading">Weather App</h2>
+            <p class="text-justify text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-3 mb-3">
+              <a href="#" class="btn text-uppercase" id="btn-launch"
+                >Launch Application</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row flex-row-reverse mb-3 mx-2 my-2">
+          <div class="col-md-6">
+            <img
+              src="image/ai.png"
+              class="img-fluid"
+              id="image-right"
+              alt="ai-kitchen-assitant"
+            />
+          </div>
+          <div class="col-md-6 align-self-center p-3" id="content-desc-left">
+            <h2 class="mb-3" id="topic-heading">AI-Kitchen Assitant</h2>
+            <p class="text-justify text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-3 mb-3">
+              <a href="#" class="btn text-uppercase" id="btn-launch"
+                >Launch Application</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3 mx-2 my-2">
+          <div class="col-md-6">
+            <img src="image/clock.png" class="img-fluid" alt="World-clock" />
+          </div>
+          <div class="col-md-6 align-self-center p-3">
+            <h2 class="mb-3" id="topic-heading">World Clock App</h2>
+            <p class="text-justify text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-3 mb-3">
+              <a href="#" class="btn text-uppercase" id="btn-launch"
+                >Launch Application</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row flex-row-reverse mx-2 my-2">
+          <div class="col-md-6">
+            <img src="image/travel.png" class="img-fluid" alt="Langtang" />
+          </div>
+          <div class="col-md-6 align-self-center p-3" id="content-desc-left">
+            <h2 class="mb-3" id="topic-heading">Travel App</h2>
+            <p class="text-justify text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-3 mb-3">
+              <a href="#" class="btn text-uppercase" id="btn-launch"
+                >Launch Application</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="mb-5 mt-5" id="footer-contact">
+        <h5 id="contact-footer-heading">Contact</h5>
+        <div class="d-flex justify-content-center">
           <a
-            class="btn text-uppercase"
-            id="btn-branding"
-            href="contact.html"
+            href="mailto:unisha.shilpakar@outlook.com"
+            id="contact-link"
+            class="text-muted"
+          >
+            <i class="fa-regular fa-envelope" id="contact-icon"></i
+            ><span class="contact-method d-none d-md-block">Email</span>
+          </a>
+          <a
+            href="https://github.com/Ush7"
+            id="contact-link"
             target="_blank"
-            >Contact me</a
+            class="text-muted"
+            ><i class="fa-brands fa-github" id="contact-icon"></i
+            ><span class="contact-method d-none d-md-block">Github</span></a
+          >
+          <a
+            href="https://www.linkedin.com/in/unisha-s-382ba4106/"
+            id="contact-link"
+            target="_blank"
+            class="text-muted"
+            ><i class="fa-brands fa-linkedin-in" id="contact-icon"></i
+            ><span class="contact-method d-none d-md-block">LinkedIn</span></a
+          >
+          <a
+            href="https://www.instagram.com/u_n_i_s_h_a/"
+            id="contact-link"
+            target="_blank"
+            class="text-muted"
+            ><i class="fa-brands fa-instagram" id="contact-icon"></i
+            ><span class="contact-method d-none d-md-block">Instagram</span></a
           >
         </div>
-      </div>
-    </div>
-    <div class="container mb-5">
-      <h1 class="mt-5 mb-5 text-center" id="content-heading">PROJECTS</h1>
-      <div class="row mb-3 mx-2 my-2">
-        <div class="col-md-6">
-          <img src="image/weather.png" class="img-fluid" alt="Weather" />
-        </div>
-        <div class="col-md-6 align-self-center p-3">
-          <h2 class="mb-3" id="topic-heading">Weather App</h2>
-          <p class="text-justify text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-3 mb-3">
-            <a href="#" class="btn text-uppercase" id="btn-launch"
-              >Launch Application</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row flex-row-reverse mb-3 mx-2 my-2">
-        <div class="col-md-6">
-          <img
-            src="image/ai.png"
-            class="img-fluid"
-            id="image-right"
-            alt="ai-kitchen-assitant"
-          />
-        </div>
-        <div class="col-md-6 align-self-center p-3" id="content-desc-left">
-          <h2 class="mb-3" id="topic-heading">AI-Kitchen Assitant</h2>
-          <p class="text-justify text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-3 mb-3">
-            <a href="#" class="btn text-uppercase" id="btn-launch"
-              >Launch Application</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row mb-3 mx-2 my-2">
-        <div class="col-md-6">
-          <img src="image/clock.png" class="img-fluid" alt="World-clock" />
-        </div>
-        <div class="col-md-6 align-self-center p-3">
-          <h2 class="mb-3" id="topic-heading">World Clock App</h2>
-          <p class="text-justify text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-3 mb-3">
-            <a href="#" class="btn text-uppercase" id="btn-launch"
-              >Launch Application</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row flex-row-reverse mx-2 my-2">
-        <div class="col-md-6">
-          <img src="image/travel.png" class="img-fluid" alt="Langtang" />
-        </div>
-        <div class="col-md-6 align-self-center p-3" id="content-desc-left">
-          <h2 class="mb-3" id="topic-heading">Travel App</h2>
-          <p class="text-justify text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-3 mb-3">
-            <a href="#" class="btn text-uppercase" id="btn-launch"
-              >Launch Application</a
-            >
-          </div>
-        </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
